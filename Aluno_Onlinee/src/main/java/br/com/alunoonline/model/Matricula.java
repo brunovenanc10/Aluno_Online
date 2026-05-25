@@ -86,13 +86,7 @@ public class Matricula {
         this.professor = professor;
     }
 
-    public Curso getCurso() {
-        return curso;
-    }
 
-    public void setCurso(Curso curso) {
-        this.curso = curso;
-    }
 
    @ManyToOne
     @JoinColumn(name = "disciplina_id")
