@@ -1,4 +1,4 @@
-package br.com.model;
+package br.com.alunoonline.model;
 
 import jakarta.persistence.*;
 
