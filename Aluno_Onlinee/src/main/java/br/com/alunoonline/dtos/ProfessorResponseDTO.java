@@ -1,6 +1,6 @@
 package br.com.alunoonline.dtos;
 
-import br.com.model.Professor;
+import br.com.alunoonline.model.Professor;
 
 public record ProfessorResponseDTO(
         Long id,
