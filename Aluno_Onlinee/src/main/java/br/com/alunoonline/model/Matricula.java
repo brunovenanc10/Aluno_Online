@@ -29,6 +29,10 @@ public class Matricula {
     @JoinColumn(name = "professor_id")
     private Professor professor;
 
+    @ManyToOne
+    @JoinColumn(name = "curso_id")
+    private Curso curso;
+
     
 
 
@@ -84,6 +88,13 @@ public class Matricula {
         this.professor = professor;
     }
 
+    public Curso getCurso() {
+        return curso;
+    }
+
+    public void setCurso(Curso curso) {
+        this.curso = curso;
+    }
 
 
    @ManyToOne
