@@ -1,6 +1,6 @@
 package br.com.alunoonline.dtos;
 
-import br.com.model.Disciplina;
+import br.com.alunoonline.model.Disciplina;
 
 public record DisciplinaResponseDTO(
         Long id,
