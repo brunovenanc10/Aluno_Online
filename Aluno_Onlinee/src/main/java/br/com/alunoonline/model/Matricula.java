@@ -95,13 +95,16 @@ public class Matricula {
     }
 
    @ManyToOne
-@JoinColumn(name = "disciplina_id")
-private Disciplina disciplina;
+    @JoinColumn(name = "disciplina_id")
+    private Disciplina disciplina;
 
-public Disciplina getDisciplina() {
+    public Disciplina getDisciplina() {
     return disciplina;
-}
+    }
 
-public void setDisciplina(Disciplina disciplina) {
+    public void setDisciplina(Disciplina disciplina) {
     this.disciplina = disciplina;
+    }
+
+    
 }
