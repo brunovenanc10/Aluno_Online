@@ -1,0 +1,21 @@
+package br.com.dtos;
+
+import br.com.model.Curso;
+
+public record CursoResponseDTO(
+        Long id,
+        String nome,
+        String codigo,
+        Integer cargaHoraria,
+        String descricao
+) {
+    public static CursoResponseDTO fromEntity(Curso curso) {
+        return new CursoResponseDTO(
+                curso.getId(),
+                curso.getNome(),
+                curso.getCodigo(),
+                curso.getCargaHoraria(),
+                curso.getDescricao()
+        );
+    }
+}
