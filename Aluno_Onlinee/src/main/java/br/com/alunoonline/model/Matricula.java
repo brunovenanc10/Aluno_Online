@@ -20,7 +20,6 @@ public class Matricula {
     @Enumerated(EnumType.STRING)
     private StatusMatricula status;
 
-    // RELACIONAMENTOS
 
     @ManyToOne
     @JoinColumn(name = "aluno_id")
@@ -34,7 +33,6 @@ public class Matricula {
     @JoinColumn(name = "curso_id")
     private Curso curso;
 
-    // GETTERS E SETTERS
 
     public Long getId() {
         return id;
