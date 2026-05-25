@@ -40,15 +40,15 @@ public class MatriculaAlunoService {
                     + matricula.getNota2()) / 2;
             matricula.setStatus(
                     media >= MEDIA_PARA_APROVAR
-                            ? MatriculaAlunoStatusEnum.APROVADO
-                            : MatriculaAlunoStatusEnum.REPROVADO);
+                            ? StatusMatricula.APROVADO
+                            : StatusMatricula.REPROVADO);
         }
 
         // 4) Salvar a matrícula atualizada
         matriculaAlunoRepository.save(matricula);
     }
     public void criarMatricula(MatriculaAluno matriculaAluno){
-        matriculaAluno.setStatus(MatriculaAlunoStatusEnum.MATRICULADO);
+        matriculaAluno.setStatus(StatusMatricula.MATRICULADO);
         matriculaAlunoRepository.save(matriculaAluno);
     }
 
@@ -61,8 +61,8 @@ public class MatriculaAlunoService {
         ));
 
         if (matriculaAluno.getStatus()
-                .equals(MatriculaAlunoStatusEnum.MATRICULADO)){
-                matriculaAluno.setStatus(MatriculaAlunoStatusEnum.TRANCADO);
+                .equals(StatusMatricula.MATRICULADO)){
+                matriculaAluno.setStatus(StatusMatricula.TRANCADO);
             matriculaAlunoRepository.save(matriculaAluno);
         }else{
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"So e possivel tranca com o status mariculado");
