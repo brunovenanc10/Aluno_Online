@@ -94,7 +94,14 @@ public class Matricula {
         this.curso = curso;
     }
 
-    public Disciplina getDisciplina() {
-        return null;
-    }
+   @ManyToOne
+@JoinColumn(name = "disciplina_id")
+private Disciplina disciplina;
+
+public Disciplina getDisciplina() {
+    return disciplina;
+}
+
+public void setDisciplina(Disciplina disciplina) {
+    this.disciplina = disciplina;
 }
