@@ -1,4 +1,4 @@
-package br.com.alunoonline.dtos;
+package br.com.alunoonline.api.dtos;
 
 import jakarta.validation.constraints.DecimalMax;
 import jakarta.validation.constraints.DecimalMin;
