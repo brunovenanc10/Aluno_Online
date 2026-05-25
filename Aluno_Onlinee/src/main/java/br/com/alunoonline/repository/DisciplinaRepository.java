@@ -1,6 +1,6 @@
 package br.com.alunoonline.repository;
 
-import br.com.alunoonline.api.model.Disciplina;
+import br.com.alunoonline.model.Disciplina;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
