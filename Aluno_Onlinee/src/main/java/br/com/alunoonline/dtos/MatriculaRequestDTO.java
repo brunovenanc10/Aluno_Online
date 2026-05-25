@@ -1,4 +1,4 @@
-package br.com.alunoonline.api.dtos;
+package br.com.alunoonline.dtos;
 
 import jakarta.validation.constraints.NotNull;
 
