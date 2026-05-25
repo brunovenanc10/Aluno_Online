@@ -1,7 +1,7 @@
 package br.com.alunoonline.dtos;
 
-import br.com.enums.StatusMatricula;
-import br.com.model.Matricula;
+import br.com.alunoonline.enums.StatusMatricula;
+import br.com.alunoonline.model.Matricula;
 
 public record MatriculaAlunoResponseDTO(
         Long id,
