@@ -1,4 +1,4 @@
-package br.com.dtos;
+package br.com.alunoonline.api.dtos;
 
 import br.com.enums.StatusMatricula;
 import br.com.model.Matricula;
