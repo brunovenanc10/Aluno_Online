@@ -1,6 +1,6 @@
 package br.com.alunoonline.dtos;
 
-import br.com.enums.StatusMatricula;
+import br.com.alunoonline.enums.StatusMatricula;
 
 public record DisciplinaHistoricoResponseDTO(
         String nomeDisciplina,
