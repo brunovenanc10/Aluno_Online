@@ -1,4 +1,4 @@
-package br.com.dtos;
+package br.com.alunoonline.dtos;
 
 import br.com.model.Aluno;
 
