@@ -1,8 +1,8 @@
-package br.com.alunoonline.api.controllers;
+package br.com.alunoonline.controller;
 
 import br.com.alunoonline.dtos.CursoRequestDTO;
 import br.com.alunoonline.dtos.CursoResponseDTO;
-import br.com.alunoonline.services.CursoService;
+import br.com.alunoonline.service.CursoService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
