@@ -16,7 +16,6 @@ public class Disciplina {
 
     private Integer cargaHoraria;
 
-    // RELACIONAMENTOS
 
     @ManyToOne
     @JoinColumn(name = "professor_id")
