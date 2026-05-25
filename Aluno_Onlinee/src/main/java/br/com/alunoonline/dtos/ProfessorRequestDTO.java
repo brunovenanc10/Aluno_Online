@@ -1,4 +1,4 @@
-package br.com.dtos;
+package br.com.alunoonline.dtos;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
