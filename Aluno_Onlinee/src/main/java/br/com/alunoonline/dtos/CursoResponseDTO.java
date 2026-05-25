@@ -1,6 +1,6 @@
 package br.com.alunoonline.dtos;
 
-import br.com.alunoonline.api.model.Curso;
+import br.com.alunoonline.model.Curso;
 
 public record CursoResponseDTO(
         Long id,
