@@ -1,4 +1,4 @@
-package br.com.enums;
+package br.com.alunoonline.enums;
 
 public enum StatusMatricula {
     MATRICULADO,
