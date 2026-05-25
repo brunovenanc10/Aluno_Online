@@ -1,6 +1,6 @@
 package br.com.alunoonline.model;
 
-import br.com.enums.StatusMatricula;
+import br.com.alunoonline.enums.StatusMatricula;
 import jakarta.persistence.*;
 
 @Entity
